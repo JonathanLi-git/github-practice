@@ -9,6 +9,7 @@ secretWord= input("Enter a word: ").lower()
 numberOfGuessesLeft= 6
 
 #Populates the hidden word string with correct number of "-"
+#this was a bug
 secretWord = secretWord[::-1]
 hiddenWord= "["
 for i in range(len(secretWord)):
