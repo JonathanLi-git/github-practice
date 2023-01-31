@@ -43,6 +43,7 @@ while marbles != 0:
         if take < 1 or take > marbles // 2:
             take = 1
         marbles -= take
+        #more changes
         print("The computer takes", take, "marbles.")
 
     turn = not turn
